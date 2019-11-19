@@ -679,12 +679,8 @@ footer {
 
 .project-image-wrapper {
 	display: block;
-	float: left;
-	height: 300px;
-	width: 300px;
-	background-size: cover;
-	background-position: center top;
-	background-repeat: no-repeat;
+	padding-top: 15px;
+	padding-bottom: 15px;
 
 	img {
 		max-width: 100%;
