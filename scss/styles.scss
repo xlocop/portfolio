@@ -681,7 +681,8 @@ footer {
 	-------------------------------
 */
 
-#logo {
+#logo,
+#ads {
 	padding: 50px 15px;
 	border-bottom: 1px solid $border;
 	text-align: center;
@@ -690,6 +691,10 @@ footer {
 		color: $heading;
 		margin-bottom: 50px;
 	}
+}
+
+#ads {
+	
 }
 
 .project {
