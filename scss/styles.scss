@@ -692,13 +692,34 @@ footer {
 	}
 }
 
+#ads {
+	padding: 50px 15px;
+	border-bottom: 1px solid $border;
+	text-align: center;
+
+	h2 {
+		color: $heading;
+		margin-bottom: 50px;
+	}
+}
+
+#logo .row,
+#ads .row {
+	display: flex;
+	flex-flow: row wrap;
+	margin-left: -8px;
+	width: 100%;
+}
+
 .project {
-	position: relative;
 	max-width: 900px;
-	margin: 0 auto 30px auto;
-	overflow: hidden;
 	background: #fff;
 	border-radius: 4px;
+	position: relative;
+	flex: auto;
+	min-width: 150px;
+	margin: 0 8px 8px 0;
+	overflow: hidden;
 }
 
 .project-image-wrapper {
@@ -720,14 +741,14 @@ footer {
 }
 
 .project-info {
-	display: block;
+	display: none;
 	margin-top: 30px;
 
 	h3 {
 		font-size: 1.5em;
 		font-weight: 400;
 		color: $heading;
-		margin: 0 0 15px 0;
+		margin: 0 15px 15px;
 	}
 
 	p {
