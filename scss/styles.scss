@@ -399,13 +399,13 @@ footer {
 	left: 50%;
 	transform: translate(-50%, -50%);
 	text-align: center;
+	color: #fff;
 
 	h1, h2, h3 {
 		margin: 0;
 	}
 
 	h1 {
-		color: #fff;
 		font-weight: 900;
 		font-size: 5em;
 		text-transform: uppercase;
@@ -414,14 +414,9 @@ footer {
 	}
 
 	h2 {
-		color: lighten($base-color, 25%);
 		font-weight: 500;
 		font-size: 2.25em;
 		margin-bottom: 15px;
-	}
-
-	h3 {
-		color: darken(#fff, 20%);
 	}
 }
 
